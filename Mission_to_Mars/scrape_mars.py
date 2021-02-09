@@ -170,7 +170,7 @@ def scrape_info():
     hemi_dict.append(valles_dict)
 
     # Store all scraped data into dictionary
-    mars_dict = {"Mars News": news_dict, "Mars Facts": mars_df, "Mars Hemispheres": hemi_dict}
+    mars_dict = {"news": news_dict, "hemispheres": hemi_dict}
 
     # Close the browser after scraping
     browser.quit()
