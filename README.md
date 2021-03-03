@@ -85,16 +85,13 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 - - -
 
-## Step 3 - Submission:
+# Deliverbles:
 
-To submit your work to BootCampSpot, create a new GitHub repository and upload the following:
+In this GitHub repository the following deliverables:
 
-1. The Jupyter Notebook containing the scraping code used.
+1. The Jupyter Notebook containing the scraping code used -> mission_to_mars.ipynb
+    * This was used to create the html table used in the index.html front end framework
 
-2. Screenshots of your final application.
+2. The python script used to scrape to required data outlined in the rubric -> scrape_mars.py
 
-3. Submit the link to your new repository to BootCampSpot.
-
-4. Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-# Deliverables:
+3. The final python script used to run the flask app and return the ultimate deliverables -> app.py
